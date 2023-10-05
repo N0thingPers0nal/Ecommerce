@@ -1,6 +1,6 @@
 let productsarray = [
-  { id: 1, productname: "Watch", price: 12, photo: "/image/watch1.jpg" },
-  { id: 2, productname: "Watch1", price: 120, photo: "/image/watch1.jpg" },
+  { id: 1, productname: "Watch", price: 12, photo: "/Ecommerce/image/watch1.jpg" },
+  { id: 2, productname: "Watch1", price: 120, photo: "/Ecommerce/image/watch1.jpg" },
 ];
 let cart = [];
 let users = [
