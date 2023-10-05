@@ -220,7 +220,7 @@ const adminhome = () => {
         </div>
         
         <div class="d-flex justify-content-around">
-          <a href="/admin/edit.html"
+          <a href="/Ecommerce/admin/edit.html"
             class="btn btn-primary mx-1"
             style="width: 120px"
             onclick="updateproduct(${product.id})"
