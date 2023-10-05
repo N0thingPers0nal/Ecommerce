@@ -12,25 +12,30 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/style.css" />
-    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="/Ecommerce/style.css" />
+    <script src="/Ecommerce/script.js" defer></script>
   </head>
   <body>
     <!-- Navigation bar starts -->
     <nav class="navbar g1">
       <div class="container-fluid">
         <div>
-          <a class="navbar-brand px-5 me-5" href="/admin/home.html">Shop Anywhere</a>
+          <a class="navbar-brand px-5 me-5" href="/Ecommerce/admin/home.html"
+            >Shop Anywhere</a
+          >
         </div>
         <div class="d-flex p-0">
           <a
-            href="/admin/orders.html"
+            href="/Ecommerce/admin/orders.html"
             class="btn btn-secondary text-white px-2 me-4 my-2"
             >Orders</a
           >
-          <button class="btn btn-danger text-white px-2 me-2 my-2" onclick="logout()"
-            >Logout</button
+          <button
+            class="btn btn-danger text-white px-2 me-2 my-2"
+            onclick="logout()"
           >
+            Logout
+          </button>
         </div>
       </div>
     </nav>
@@ -40,52 +45,43 @@
     <h1 class="text-center my-5" id="titlename">Add Product</h1>
     <div id="addsuccess" class="text-center fs-3 text-primary"></div>
     <div class="d-flex justify-content-center align-items-center h-90">
-        <div class="col-4">
-          <div class="card" style="border-radius:10px">
-              <div class="card-body p-4">
-                <div class="mb-3">
-                  <input
-                    type="text"
-                    id="productname"
-                    class="form-control form-control-lg"
-                    placeholder="Product Name"
-                  />
-                </div>
-                <!-- <div class="mb-3">
-                    <textarea
-                      type=""
-                      id="desc"
-                      class="form-control form-control-lg"
-                      placeholder="Description"
-                    ></textarea>
-                  </div> -->
-                  <div class="mb-3">
-                    <input
-                      type="number"
-                      id="price"
-                      class="form-control form-control-lg"
-                      placeholder="Price"
-                    />
-                  </div>
+      <div class="col-4">
+        <div class="card" style="border-radius: 10px">
+          <div class="card-body p-4">
+            <div class="mb-3">
+              <input
+                type="text"
+                id="productname"
+                class="form-control form-control-lg"
+                placeholder="Product Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="number"
+                id="price"
+                class="form-control form-control-lg"
+                placeholder="Price"
+              />
+            </div>
 
-                <div class="mb-3">
-                  <input
-                    type="url"
-                    id="image"
-                    class="form-control form-control-lg"
-                    placeholder="Thumnail"
-                  />
-                </div>
+            <div class="mb-3">
+              <input
+                type="url"
+                id="image"
+                class="form-control form-control-lg"
+                placeholder="Thumnail"
+              />
+            </div>
 
-                <div class="text-center">
-                  <button class="btn btn-warning w-50" onclick="add()">Add</button>
-                </div>
-              </div>
+            <div class="text-center">
+              <button class="btn btn-warning w-50" onclick="add()">Add</button>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
     <!--Add product end -->
-  
   </body>
 </html>
