@@ -93,7 +93,7 @@ window.addEventListener("load", () => {
     adminOrder();
   }} 
   else{
-    location.replace("/Ecommerce/index.html")
+    // location.replace("/Ecommerce/index.html")
   }
 });
 
