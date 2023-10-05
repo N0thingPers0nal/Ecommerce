@@ -1,6 +1,6 @@
 let productsarray = [
   { id: 1, productname: "Pillow", price: 120, photo: "https://m.media-amazon.com/images/I/71oZ8Gt9lbL._AC_UF1000,1000_QL80_.jpg" },
-  { id: 2, productname: "Watch1", price: 120, photo: "https://rukminim2.flixcart.com/image/832/832/xif0q/watch/f/a/m/-original-imagqfwa7zdww8cv.jpeg?q=70" },
+  { id: 2, productname: "Watch1", price: 2000, photo: "https://rukminim2.flixcart.com/image/832/832/xif0q/watch/f/a/m/-original-imagqfwa7zdww8cv.jpeg?q=70" },
 ];
 let cart = [];
 let users = [
