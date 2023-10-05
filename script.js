@@ -497,7 +497,7 @@ const buy = (productid) => {
       date: d,
       timestamp: date,
       userid: user,
-      status: "Shipping",
+      status: "Pending",
       ...ordereditem,
     });
     localStorage.setItem("orders", JSON.stringify(order));
