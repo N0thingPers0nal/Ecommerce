@@ -158,8 +158,7 @@ const signup = () => {
       name: nameref.value,
       email: emailref.value,
       password: passwordref.value,
-    });
-    // console.log(users);
+    })
     localStorage.setItem("users", JSON.stringify(user));
     location.replace("/Ecommerce/login.html");
   }
@@ -473,7 +472,7 @@ const cartpage = () => {
       }
     } else {
       show = `<div class="d-flex flex-column text-center "><div class="m-3 fs-2">Your cart is Empty</div>
-  <div><a href="/home.html" class="btn btn-warning me-2">Continue Shopping</button></div></div>`;
+  <div><a href="/Ecommerce/home.html" class="btn btn-warning me-2">Continue Shopping</button></div></div>`;
       cartProductRef.innerHTML = show;
     }
     itemsRef.innerHTML = `${cartItemscount} items`;
@@ -581,7 +580,7 @@ const orderpage = () => {
       }
     } else {
       show = `<div class="d-flex flex-column text-center "><div class="m-3 fs-2">No orders placed yet.</div>
-  <div><a href="/home.html" class="btn btn-warning me-2">Explore Products</button></div></div>`;
+  <div><a href="/Ecommerce/home.html" class="btn btn-warning me-2">Explore Products</button></div></div>`;
       orderemptyRef.innerHTML = show;
     }
     ordereditemsRef.innerHTML = `${c} items`;
