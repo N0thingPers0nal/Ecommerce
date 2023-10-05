@@ -161,7 +161,7 @@ const signup = () => {
     });
     // console.log(users);
     localStorage.setItem("users", JSON.stringify(user));
-    location.replace("/Ecommerce/login.html");
+    location.replace("Ecommerce/login.html");
   }
 };
 
