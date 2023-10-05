@@ -521,7 +521,7 @@ const buyfromhome = (productid) => {
       date: d,
       timestamp: date,
       userid: user,
-      status: "Shipping",
+      status: "Pending",
       ...ordereditem,
       count: 1,
     });
