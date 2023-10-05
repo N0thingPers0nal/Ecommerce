@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>Order</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <!-- Navigation bar starts -->
+   <nav class="navbar g1 m-0">
+    <div class="container-fluid m-0">
+      <div><a class="navbar-brand px-5 me-5" href="/home.html">Shop Anywhere</a></div>
+      <!-- <div class="d-flex "><input class="form-control me-2 ms-10" type="search" placeholder="Search" >
+      <button class="btn btn-outline-success" type="submit">Search</button></div> -->
+
+      <div class="d-flex p-0">
+        <a
+          href="home.html"
+          class="btn btn-secondary  text-white px-2 me-4 my-2"
+          >Home</a
+        >
+        <a
+          href="cart.html"
+          class="btn btn-secondary  text-white px-2 me-4 my-2"
+          >Cart</a
+        >
+        <a
+          href="orders.html"
+          class="btn btn-secondary  text-white px-2 me-4 my-2"
+          >Orders</a
+        >
+        <button class="btn btn-danger text-white px-2 me-2 my-2" onclick="logout()"
+            >Logout</button
+          >
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation bar ends -->
+
+    <!-- Title -->
+      <div class="d-flex justify-content-around align-items-center mt-3">
+        <h1 class="fw-bold mb-0 text-black">Orders</h1>
+        <h3 class="mt-2 mb-0" id="ordereditems"></h4>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12">
+              <hr>
+              <div class="row d-flex justify-content-around align-items-center">
+                 <div class="col-1"></div>
+                 <div class="col-2 text-center">
+                  <h4 class="text-black m-0">Ordered Items</h4>
+                </div>
+                 <div class="col-2 text-center"><h4 class="text-black m-0">Order ID</h4></div>
+                 <div class="col-1 text-center"><h4 class="text-black m-0">Date</h4></div>
+                 
+                <div class="col-1 text-center">
+                  <h4 class="text-black m-0">Quantity</h4>
+                </div>
+                <div class="col-1 text-center">
+                  <h4 class="m-0">Price</h4>
+                </div>
+                <div class="col-1 text-center"><h4 class="m-0">Status</h4></div>
+              </div>
+              <hr>
+              <div id="orderedproducts"></div>
+              <div id="orderempty"></div>
+              <!-- <div class="row d-flex justify-content-around align-items-center" >
+                <div class="col-1">
+                  <img src="/image/watch1.jpg" class="img-fluid rounded-3" style="height: 100px;" max-width="100px">
+                </div>
+                <div class="col-2 text-center">
+                  <h6 class="text-black m-0">Watch</h6>
+                </div>
+                <div class="col-2 text-center"><h6 class="text-black m-0">123</h6></div>
+                 <div class="col-1 text-center"><h6 class="text-black m-0">998767</h6></div>
+                
+                <div class="col-1 text-center">
+                  <input type="number" class=" form-control rounded-3 text-center" style="width:50" value="1" placeholder="1">
+                </div>
+                <div class="col-1 text-center">
+                  <h6 class="m-0">₹ 12</h6>
+                </div>
+                <div class="col-1 text-center"><h6 class="text-black m-0">Out for Delivery</h6></div>
+              </div>
+              <hr> -->
+            </div>
+          </div>
+        </div>
+      </div>          
+  </body>
+</html>

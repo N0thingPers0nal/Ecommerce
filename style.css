@@ -1,0 +1,20 @@
+.gradient-custom{
+    background: linear-gradient(to right,rgb(219, 108, 145),rgb(173, 56, 228));
+}
+.g1{
+    background: linear-gradient(to right,rgb(218, 101, 218),rgb(207, 173, 230));
+
+}
+body{
+    background: rgb(240, 227, 243);
+}
+.btn{
+    /* background-color: orange; */
+    /* color:white; */
+    font:bolder;
+}
+p{
+    font-size: small;
+    color: red;
+    text-align: center;
+}
