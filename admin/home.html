@@ -12,8 +12,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="/script.js" defer></script>
-    <link rel="stylesheet" href="/style.css" />
+    <script src="/Ecommerce/script.js" defer></script>
+    <link rel="stylesheet" href="/Ecommerce/style.css" />
   </head>
   <body>
     <!-- Navigation bar starts -->
@@ -34,13 +34,16 @@
             >Cart</a
           > -->
           <a
-            href="/admin/orders.html"
+            href="/Ecommerce/admin/orders.html"
             class="btn btn-secondary text-white px-2 me-4 my-2"
             >Orders</a
           >
-          <button class="btn btn-danger text-white px-2 me-2 my-2" onclick="logout()"
-            >Logout</button
+          <button
+            class="btn btn-danger text-white px-2 me-2 my-2"
+            onclick="logout()"
           >
+            Logout
+          </button>
         </div>
       </div>
     </nav>
@@ -49,7 +52,7 @@
     <div class="col d-flex flex-row justify-content-between m-5 mt-3">
       <div class=""><h2 class="">Products</h2></div>
       <div class="d-flex">
-        <a href="/admin/add.html"
+        <a href="/Ecommerce/admin/add.html"
           ><button class="btn btn-warning mx-1" style="width: 100px">
             Add
           </button></a
@@ -59,41 +62,7 @@
 
     <div class="d-flex flex-wrap justify-content-around" id="addproducts">
       <!-- product start -->
-      <!-- <div
-        class="card rounded-4 mx-3 my-3 col-2 bg-primary-subtle p-0"
-        style="width: 250px; height: 350px"
-      >
-        <img
-          src="https://media.istockphoto.com/id/916407684/photo/watch.jpg?s=612x612&w=0&k=20&c=1qkF75fr-Wsb1Y5ShXnzFYNv8wZ7ST-xZ8CxSzPCXr4="
-          class="img rounded-4"
-          style="max-width: 350px; max-height: 250px"
-        />
-        <div class="card-body p-2">
-          <div class="d-flex justify-content-around m-1">
-            <h5 class="">Watch</h5>
-            <h5 class="">₹ 2322</h5>
-          </div>
-
-          <div class="d-flex justify-content-around">
-            <a
-              href="/admin/add.html"
-              class="btn btn-primary mx-1"
-              style="width: 120px"
-              onclick="add()"
-              >Edit</a
-            >
-            <a
-              href="/admin/orders.html"
-              class="btn btn-danger mx-1"
-              style="width: 120px"
-              >Delete</a
-            >
-          </div> -->
-        <!-- product end -->
-        </div>
-      </div>
-
-      
+      <!-- product end -->
     </div>
   </body>
 </html>
