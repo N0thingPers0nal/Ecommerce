@@ -73,7 +73,6 @@ window.addEventListener("load", () => {
       }
     });
   }
-  if(sessionStorage.getItem("userid")){
   if (location.pathname === "/Ecommerce/admin/home.html") {
     adminhome();
   }
@@ -91,9 +90,6 @@ window.addEventListener("load", () => {
   }
   if (location.pathname === "/Ecommerce/admin/orders.html") {
     adminOrder();
-  }} 
-  else{
-    // location.replace("/Ecommerce/index.html")
   }
 });
 
